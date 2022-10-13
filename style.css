@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --light-blue:#31A8DD;
+}
+
+.top {
+    background: url(assets/images/banner.png), linear-gradient(180deg, black, #1a5772 50% , black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+    border-bottom: .1px solid var(--light-blue);
+}
+
+.top img {
+    display: block;
+    margin: auto;
+    padding: 80px;
+}
+
+.top h1 {
+    text-align: center;
+    font-size: 3em;
+    color: var(--light-blue);
+    margin-bottom: 15px;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+
+.top p {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    width: 800px;
+}
+
+.top button {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 60px;
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border: 3px solid var(--light-blue);
+    color: var(--light-blue);
+    background: transparent;
+    cursor: pointer;
+}
+
+.middle {
+    background: black;
+    height: 55vh;
+    border-bottom: 1px solid var(--light-blue);
+}
+
+.middle h1 {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 30px;
+    font-size: 2.3em;
+    color: var(--light-blue);
+}
+
+.middle p {
+    display: block;
+    margin: auto;
+    color: white;
+    text-align: center;
+    width: 800px;
+    margin-bottom: 25px;
+}
+
+.middle-tags {
+    margin: auto;
+    text-align: center;
+    border: 1px solid var(--light-blue);
+    border-radius: 20px;
+    padding: 15px;
+    width: 600px;
+    margin-bottom: 30px;
+    background-color: rgb(68, 65, 65);
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+}
+
+.middle-tags span {
+    color: var(--light-blue);
+    font-weight: bold;
+}
+
+
+.middle-tags p {
+    display: inline;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.bg-img {
+    background-image: url(assets/images/woman-code.png);
+    background-color: rgb(0, 0, 0);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 40vh;
+    border-bottom: 1px solid var(--light-blue);
+}
+
+.bg-img h1 {
+    padding-top: 10%;
+    margin-left: 165px;
+    font-size: 2.2em;
+    color: white;
+    text-shadow: 3px 2px var(--light-blue);
+    width: 200px;
+    word-break: keep-all;
+}
+
+.bg-img-bottom {
+    background-color: black;
+}
+
+.bg-img-bottom h1 {
+    color: var(--light-blue);
+    text-align: center;
+    font-size: 1.8em;
+    width: 700px;
+    padding-top: 80px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.bg-img-bottom img {
+    display: block;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.bg-img-bottom p {
+    color: white;
+    font-size: 0.9em;
+    width: 750px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+footer {
+    position: relative;
+    height: 20vh;
+    background-image: linear-gradient(black 60%, rgb(7, 30, 51)104%);
+    text-align: center;
+    border-top: 1px solid var(--light-blue);
+}
+
+footer img {
+    display: block;
+    margin: auto;
+    padding-top: 5%;
+    margin-bottom: 5px;
+}
+
+footer p {
+    color: white;
+}
+
+footer :nth-child(3) {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    font-size: 0.9em;
+    transition-property: border 1s;
+}
+
+footer :nth-child(3) span {
+    color: var(--light-blue);
+    font-weight: bolder;
+}
+
+footer :nth-child(3) span:hover {
+    font-size: 1.5em;
+    transition: .3s;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--light-blue);
+}
